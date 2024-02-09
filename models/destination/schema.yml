@@ -11,10 +11,10 @@ sources:
 models:
   - name: population_enriched
     columns:
-      - name: country
+      - name: country_id
         tests:
           - not_null
-      - name: code
+      - name: country_code
         tests:
           - not_null
       - name: region
